@@ -6,6 +6,7 @@ import { BsFacebook } from 'react-icons/bs';
 import { IoLogoYoutube } from 'react-icons/io';
 import { BsInstagram } from 'react-icons/bs';
 import { HiMiniArrowSmallRight } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -14,17 +15,24 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h1 className="text-3xl mb-4">Quick link</h1>
+
             <div className="flex items-center mb-2">
               <HiMiniArrowSmallRight className="mr-2" />
-              <p>About Us</p>
+              <Link to="./About">
+                <p>About Us</p>
+              </Link>
             </div>
             <div className="flex items-center mb-2">
               <HiMiniArrowSmallRight className="mr-2" />
-              <p>Contact Us</p>
+              <Link to="./Contact">
+                <p>Contact Us</p>
+              </Link>
             </div>
             <div className="flex items-center">
               <HiMiniArrowSmallRight className="mr-2" />
-              <p>Courses</p>
+              <Link to="./Level">
+                <p>Levels</p>
+              </Link>
             </div>
           </div>
 
@@ -36,7 +44,9 @@ const Footer = () => {
             </div>
             <div className="flex items-center mb-4">
               <MdOutlineEmail className="mr-2" />
-              <p>Wisdomschool@gmail.com</p>
+              <Link to="./">
+                <p>Wisdomschool@gmail.com</p>
+              </Link>
             </div>
             <div className="flex space-x-4">
               <AiFillTwitterCircle className="text-2xl" />
@@ -102,6 +112,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center mb-2">
               <HiMiniArrowSmallRight className="mr-2" />
+
               <p>API</p>
             </div>
             <div className="flex items-center mb-2">
