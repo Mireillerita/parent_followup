@@ -23,6 +23,12 @@ import ConfirmNewPass from './components/authoPages/ComfirmNewPass';
 import OTP from './components/authoPages/OTP';
 import EditCourse from './components/shared/course/EditCourse';
 import Messages from './components/shared/Messages';
+import LevelOneDetails from './components/findmore/LevelOneDetails';
+import LevelTwoDetails from './components/findmore/LevelTwoDetails';
+import LevelThreeDetails from './components/findmore/LevelThreeDetails';
+import LevelFourDetails from './components/findmore/LevelFourDetails';
+import LevelFiveDetails from './components/findmore/LevelFiveDetails';
+import LevelSixDetails from './components/findmore/LevelSixDetails';
 const Layout = () => {
   return (
     <>
@@ -46,7 +52,7 @@ const App = () => {
               <Route path="level" element={<Level />} />
               <Route path="Contact" element={<Contact />} />
             </Route>
-            
+
             <Route>
               <Route path="Login" element={<Login />} />
               <Route path="SignUp" element={<Signup />} />
@@ -69,9 +75,16 @@ const App = () => {
               <Route path="book" element={<Books />} />
               <Route path="pinstructor" element={<Pinstructor />} />
             </Route>
+
+            <Route path="/" element={<Level />}></Route>
+            <Route path="LevelOneDetails" element={<LevelOneDetails />} />
+            <Route path="LevelTwoDetails" element={<LevelTwoDetails />} />
+            <Route path="LevelThreeDetails" element={<LevelThreeDetails />} />
+            <Route path="LevelFourDetails" element={<LevelFourDetails />} />
+            <Route path="LevelFiveDetails" element={<LevelFiveDetails />} />
+            <Route path="LevelSixDetails" element={<LevelSixDetails />} />
           </Routes>
         </BrowserRouter>
-        
       </div>
     </>
   );

@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Level = () => {
   return (
@@ -26,21 +26,34 @@ const Level = () => {
 
             <div className="p-4 sm:p-6 px-4 py-6 flex flex-col items-center">
               <a href="#">
-                <h3 className="text-xl font-medium text-teal-600">
-                  LEVEL ONE 
-                </h3>
+                <h3 className="text-xl font-medium text-teal-600">LEVEL ONE</h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Dive into the world of advanced learning with our comprehensive Level One courses designed to equip you with essential skills and knowledge across various domains. Whether you're looking to enhance your career prospects, pursue personal growth, or simply expand your horizons, our courses offer a blend of theoretical insights and practical applications tailored to meet your needs. Our experienced instructors guide you through every step, ensuring you gain a solid foundation and develop a deep understanding of complex concepts. Join us today and embark on a journey of continuous learning and discovery.
-  </p>
+                Dive into the world of advanced learning with our comprehensive
+                Level One courses designed to equip you with essential skills
+                and knowledge across various domains. Whether you're looking to
+                enhance your career prospects, pursue personal growth, or simply
+                expand your horizons, our courses offer a blend of theoretical
+                insights and practical applications tailored to meet your needs.
+                Our experienced instructors guide you through every step,
+                ensuring you gain a solid foundation and develop a deep
+                understanding of complex concepts. Join us today and embark on a
+                journey of continuous learning and discovery.
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelOneDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
 
@@ -53,21 +66,37 @@ const Level = () => {
 
             <div className="p-4 sm:p-6 px-4 py-6 flex flex-col items-center">
               <a href="#">
-                <h3 className="text-xl font-medium text-teal-600">
-                  LEVEL TWO
-                </h3>
+                <h3 className="text-xl font-medium text-teal-600">LEVEL TWO</h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Elevate your expertise with our Level Two courses, meticulously designed to deepen your understanding and hone your skills in specialized areas. These advanced programs are tailored for learners who have completed Level One and are eager to delve deeper into the complexities of their chosen fields. Our courses feature hands-on projects, industry-relevant case studies, and exclusive access to expert insights, preparing you for real-world challenges and opportunities. Whether you're aiming for leadership roles, seeking to innovate within your profession, or pursuing academic excellence, Level Two courses set you on the path to achieving your highest aspirations. Discover how our rigorous curriculum and personalized guidance can propel your career forward.
-  </p>
+                Elevate your expertise with our Level Two courses, meticulously
+                designed to deepen your understanding and hone your skills in
+                specialized areas. These advanced programs are tailored for
+                learners who have completed Level One and are eager to delve
+                deeper into the complexities of their chosen fields. Our courses
+                feature hands-on projects, industry-relevant case studies, and
+                exclusive access to expert insights, preparing you for
+                real-world challenges and opportunities. Whether you're aiming
+                for leadership roles, seeking to innovate within your
+                profession, or pursuing academic excellence, Level Two courses
+                set you on the path to achieving your highest aspirations.
+                Discover how our rigorous curriculum and personalized guidance
+                can propel your career forward.
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelTwoDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
 
@@ -81,27 +110,43 @@ const Level = () => {
             <div className="p-4 sm:p-6 px-4 py-6 flex flex-col items-center">
               <a href="#">
                 <h3 className="text-xl font-medium text-teal-600">
-                  LEVEL THREE 
+                  LEVEL THREE
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Embark on a transformative journey with our Level Three courses, designed for ambitious individuals ready to push boundaries and excel in their fields. These advanced programs are crafted to challenge and inspire, equipping you with sophisticated tools and strategies to tackle complex problems and drive innovation. Through immersive projects, collaborative research, and direct engagement with industry leaders, you'll not only deepen your expertise but also forge meaningful connections that can propel your career forward. Level Three is your gateway to becoming a thought leader, poised to make significant contributions to your discipline and beyond. Are you ready to redefine success?
-  </p>
+                Embark on a transformative journey with our Level Three courses,
+                designed for ambitious individuals ready to push boundaries and
+                excel in their fields. These advanced programs are crafted to
+                challenge and inspire, equipping you with sophisticated tools
+                and strategies to tackle complex problems and drive innovation.
+                Through immersive projects, collaborative research, and direct
+                engagement with industry leaders, you'll not only deepen your
+                expertise but also forge meaningful connections that can propel
+                your career forward. Level Three is your gateway to becoming a
+                thought leader, poised to make significant contributions to your
+                discipline and beyond. Are you ready to redefine success?
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelThreeDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
         </div>
 
         {/* Second Row */}
         <div className="flex flex-wrap justify-center items-center gap-4 mt-8">
-        <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-80 mr-10">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-80 mr-10">
             <img
               alt=""
               src="https://media.istockphoto.com/id/1475870297/photo/kids-fun-stretching-and-classroom-hands-in-the-air-for-happy-children-assessment-growth-in-a.webp?b=1&s=170667a&w=0&k=20&c=fo0U72QFIHc2F39bKf0FBvMpEOzC08EY-dWlEOUCvuI="
@@ -116,15 +161,32 @@ const Level = () => {
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Advance your expertise and prepare for the pinnacle of achievement with our Level Four courses. Designed for learners who have demonstrated exceptional dedication and proficiency, these advanced programs are tailored to deepen your understanding and refine your skills in specialized areas. Through rigorous academic challenges, collaborative research projects, and mentorship from leading experts, you'll not only master complex concepts but also cultivate innovative thinking and problem-solving abilities. Level Four is your stepping stone to becoming a leader in your field, equipped with the knowledge and skills to drive change and make significant contributions. Are you ready to reach new heights in your educational journey?
-  </p>
+                Advance your expertise and prepare for the pinnacle of
+                achievement with our Level Four courses. Designed for learners
+                who have demonstrated exceptional dedication and proficiency,
+                these advanced programs are tailored to deepen your
+                understanding and refine your skills in specialized areas.
+                Through rigorous academic challenges, collaborative research
+                projects, and mentorship from leading experts, you'll not only
+                master complex concepts but also cultivate innovative thinking
+                and problem-solving abilities. Level Four is your stepping stone
+                to becoming a leader in your field, equipped with the knowledge
+                and skills to drive change and make significant contributions.
+                Are you ready to reach new heights in your educational journey?
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelFourDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
 
@@ -143,15 +205,34 @@ const Level = () => {
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Achieve unparalleled mastery and specialize in your field with our Level Five courses, designed for the most dedicated learners. These advanced programs are tailored for individuals who have demonstrated exceptional commitment and proficiency throughout their educational journey. By completing Level Five, you'll not only deepen your understanding of cutting-edge theories and practices but also gain the ability to contribute significantly to your discipline. Our courses feature intensive research projects, mentorship from leading experts, and opportunities for publication and collaboration with peers around the globe. Ready to elevate your expertise and make a lasting impact? Level Five is your invitation to join the ranks of the most accomplished professionals and scholars in your field.
-  </p>
+                Achieve unparalleled mastery and specialize in your field with
+                our Level Five courses, designed for the most dedicated
+                learners. These advanced programs are tailored for individuals
+                who have demonstrated exceptional commitment and proficiency
+                throughout their educational journey. By completing Level Five,
+                you'll not only deepen your understanding of cutting-edge
+                theories and practices but also gain the ability to contribute
+                significantly to your discipline. Our courses feature intensive
+                research projects, mentorship from leading experts, and
+                opportunities for publication and collaboration with peers
+                around the globe. Ready to elevate your expertise and make a
+                lasting impact? Level Five is your invitation to join the ranks
+                of the most accomplished professionals and scholars in your
+                field.
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelFiveDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
 
@@ -164,21 +245,36 @@ const Level = () => {
 
             <div className="p-4 sm:p-6 px-4 py-6 flex flex-col items-center ml-3">
               <a href="#">
-                <h3 className="text-xl font-medium text-teal-600">
-                  LEVEL SIX
-                </h3>
+                <h3 className="text-xl font-medium text-teal-600">LEVEL SIX</h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-    Advance your expertise and prepare for the pinnacle of achievement with our Level Four courses. Designed for learners who have demonstrated exceptional dedication and proficiency, these advanced programs are tailored to deepen your understanding and refine your skills in specialized areas. Through rigorous academic challenges, collaborative research projects, and mentorship from leading experts, you'll not only master complex concepts but also cultivate innovative thinking and problem-solving abilities. Level Four is your stepping stone to becoming a leader in your field, equipped with the knowledge and skills to drive change and make significant contributions. Are you ready to reach new heights in your educational journey?
-  </p>
+                Advance your expertise and prepare for the pinnacle of
+                achievement with our Level Four courses. Designed for learners
+                who have demonstrated exceptional dedication and proficiency,
+                these advanced programs are tailored to deepen your
+                understanding and refine your skills in specialized areas.
+                Through rigorous academic challenges, collaborative research
+                projects, and mentorship from leading experts, you'll not only
+                master complex concepts but also cultivate innovative thinking
+                and problem-solving abilities. Level Four is your stepping stone
+                to becoming a leader in your field, equipped with the knowledge
+                and skills to drive change and make significant contributions.
+                Are you ready to reach new heights in your educational journey?
+              </p>
 
-  <Link to="/Login" className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4">
-          Find out more
-          <span aria-hidden="true" className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180">
-            &rarr;
-          </span>
-        </Link>
+              <Link
+                to="/LevelSixDetails"
+                className="inline-flex items-center gap-1 text-sm font-medium text-teal-400 mt-4"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ml-0.5 transform group-hover:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </Link>
             </div>
           </article>
         </div>

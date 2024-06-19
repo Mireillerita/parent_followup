@@ -113,7 +113,7 @@ const Signup = () => {
             >
               <option value="select role">Select role</option>
               <option value="parent">Parent</option>
-              <option value="instructor">Instructor</option>
+              {/* <option value="instructor">Instructor</option> */}
               <option value="admin">Admin</option>
             </select>
           </div>
